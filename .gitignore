@@ -1,0 +1,17 @@
+#weird mac files
+.DS_Store
+*/.~$eeney_thesis_f2020.docx/**
+
+#notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/**
+
+#fluxnet data 
+FLUXNET2015/
+
+#BADM data 
+FLX_AA-Flx_BIF_HH_20200501.csv
+
+#matlab files
+*.m
+*/baldocchi_matlab/*
