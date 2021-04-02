@@ -6,9 +6,6 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/**
 
-#fluxnet data 
-FLUXNET2015/
-
 #BADM data 
 FLX_AA-Flx_BIF_HH_20200501.csv
 
