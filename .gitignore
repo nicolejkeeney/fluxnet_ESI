@@ -6,8 +6,14 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/**
 
-#BADM data 
-FLX_AA-Flx_BIF_HH_20200501.csv
+# data 
+data/* 
+
+# ignore 
+ignore/*
+
+# pycache 
+__pycache__/*
 
 #matlab files
 *.m

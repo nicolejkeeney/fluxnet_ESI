@@ -84,11 +84,11 @@ def E_pot(Tc, P, NETRAD, G):
     return E_pot
 
 
-def addESI_PT(fluxMonthly, upperLimit = 1): 
+def addESI_PT(fluxMonthly, upperLimit = 1.1): 
     """Calculate ESI PT and add as a column to the table 
     Args: 
         - fluxMonthly (pandas DataFrame): dataframe containing fluxnet monthly data
-        - upperLimit (int, optional): upper limit to restrict ESI ratio (default to 1)
+        - upperLimit (int, optional): upper limit to restrict ESI ratio (default to 1.1)
     Returns: 
         - fluxDF (pandas DataFrame): dataframe with new 'ESI PT (W/m^2)' column
     """
@@ -179,7 +179,7 @@ def plotESI(RH, ESI_PT, ESI_B, Beta, title = 'Evaporative Stress Index (ESI) vs.
     ax = plt.axes([0,0,1,1])
 
     #plot data
-    ax.scatter(RH, ESI_B, s = markersize, color = 'red', label = 'f(RH) = RH^(VPD/β), β = ' + str(round(1/Beta,2))); #model ESI
+    ax.scatter(RH, ESI_B, s = markersize, color = 'red', label = 'f(RH) = RH^(VPD*β), β = ' + str(round(Beta,2))); #model ESI
     ax.scatter(RH, ESI_PT, s = markersize, color = 'dodgerblue', label = 'ESI tower data');
 
     #add descriptive info to plot
