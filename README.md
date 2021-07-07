@@ -1,6 +1,6 @@
 # Project description
 
-Code, figures, and data for Fall 2020 senior thesis at UC Berkeley in Atmospheric Science, written by Nicole Keeney and advised by Prof Dennis Baldocchi. 
+Code for senior honors thesis in Atmospheric Science @ UC Berkeley, written by Nicole Keeney and advised by Prof Dennis Baldocchi. 
 
 Title: Evaluation of a simple parameterization of the Evaporative Stress Index using FLUXNET data and a planetary boundary layer model
 
